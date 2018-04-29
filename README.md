@@ -30,7 +30,7 @@ main.addEventListener('click', function(event) {
 
 Now if you click on the `main` element (you can click its text, "My ID is 'main'!"), you should see an alert: `'I was clicked!'. What's going on here?
 
-The first argument, `'click'` is, as we've said, the name of the event we're listening for. Click events probably make up a majority of events listened to, but other common events are `change`, `'keydown'`, `'keyup'`, `'load'`, `'mouseover'`, `'mouseout'` — the list goes on. You can find a reasonably comprehensive list on [MDN](https://developer.mozilla.org/en-US/docs/Web/Events).
+The first argument, `'click'` is, as we've said, the name of the event we're listening for. Click events probçably make up a majority of events listened to, but other common events are `change`, `'keydown'`, `'keyup'`, `'load'`, `'mouseover'`, `'mouseout'` — the list goes on. You can find a reasonably comprehensive list on [MDN](https://developer.mozilla.org/en-US/docs/Web/Events).
 
 The second argument is a function that accepts the event as its argument. The event has a number of useful properties on it — keypress, keydown, and keyup events, for example, will have a `which` property that tells us which key was pressed. Let's add an event listener to the `input` element to get a feel for this.
 
